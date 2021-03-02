@@ -1,0 +1,168 @@
+html{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#mainContainer{
+  height:100%;
+  padding:0px;
+  margin:0px;
+}
+/*Initializes the navigation bar at top right of page (will move with page).*/
+.nav{
+  display: inline-flex;
+  justify-content: flex-end;
+  margin:0px;
+  padding:0px;
+  background-color: #00334d;
+  overflow: hidden;
+  position: fixed;
+  top:75px;
+  width:100%;
+}
+.nav ul{
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav a{
+  display: inline-flex;
+  align-items: flex-end;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav a:hover{
+  display: inline-flex;
+  background-color: #eee;
+  color: black;
+}
+.nav a.active{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: #00a3cc;
+  color: white;
+}
+#headerSection{
+  position:fixed;
+  margin:0px;
+  padding:0px;
+  width:100%;
+  max-height: 75px;
+  background-image:url('deepSea.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contentContainer{
+  margin:0px;
+  padding-top:130px;
+  background-color: #000
+}
+/*Instructions for main text on home screen and about page. Text: Light Blue, uses red span to accent points.*/
+#infoSection{
+  text-align: center;
+  font-family: sans-serif;
+  height:auto;
+  margin:0px;
+  padding: 20px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: 100;
+  background-color: black;
+  color: #99ebff;
+  text-shadow: 2px 2px #006680;
+}
+/*Instructions for contact page text. Text: White, no accent colors*/
+#infoSection1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: sans-serif;
+  font-weight: 100;
+  height:auto;
+  margin:0px;
+  padding: 20px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  text-shadow: 2px 2px #006680;
+}
+/*Instructions for contact page text. Text: White, found in lists, no accent colors*/
+#infoContent{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height:auto;
+  margin:0px;
+  padding: 20px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  text-indent: 20px;
+  background-color: black;
+  color: white;
+  text-shadow: 2px 2px #006680;
+}
+/*Blocks out section for images*/
+#imageSection{
+  margin:0px;
+  padding:0px;
+  background-color: #000;
+}
+/*Text at bottom of page, right justified. */
+#footerSection{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin:0px;
+  padding:10px;
+  background-color: #00334d;
+  font-weight: bold;
+  color:white;
+}
+/*Instructions for image appearance, will adjust with page, edge to edge images.*/
+.backImg{
+  object-fit: cover;
+  margin:0px;
+  padding:0px;
+  margin-bottom: 0px;
+  height:700px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+  margin:0px;
+  padding:0px;
+}
+h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0px;
+  padding:10px;
+  font-size: 50px;
+  font-weight: bold;
+  color:#e6faff;
+  text-shadow: 2px 2px #000;
+}
+a{
+  margin:0px;
+  padding:0px;
+  color: #008fb3;
+}
+/*Red accent text for emphasis.*/
+span{
+  margin:0px;
+  padding:0px;
+  color:red;
+  text-shadow:2px 2px #800000;
+}
